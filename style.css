@@ -46,6 +46,10 @@ header ul{
     align-items: center;
 }
 
+header ul li{
+    margin-left: 10px;
+}
+
 header ul a{
     text-decoration: none;
     color: #fff;
@@ -122,18 +126,17 @@ main{
 .bg-img{
     position: absolute;
     width: 194.44%;
-    top: calc(50% - 48.14%);
-    left: calc(50% + 10px);
+    top: 1.86%;
+    left: 50.69%;
     z-index: 1;
 }
 
 .fog-7{
     position: absolute;
     z-index: 2;
-    width: 1900px;
-    top: calc(50% - 100px);
-    left: calc(50% + 300px);
-   
+    width: 132%;
+    top: 37.7%;
+    left: 70.8%;   
 }
 
 .mountain-10{
@@ -308,9 +311,9 @@ main{
 .fog-1{
     position: absolute;
     z-index: 21;
-    width: 1600px;
-    top: calc(100% - 355px);
-    left: 50%;
+    width: 111.8%;
+    top: 59.26%;
+    left: 50.69%;
 }
 
 .vignette{
@@ -357,6 +360,16 @@ main{
         height: 30px;
         width: 30px;
     }
+
+    /* .bg-img{
+        width: initial;
+        height: 311.104%;
+    }
+
+    .fog-7{
+        width: initial;
+        height: 211.2%; 
+    } */
 }
 
 @media (max-width: 520px){
